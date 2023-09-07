@@ -1,0 +1,15 @@
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\bin\Debug\net6.0\MatchManagementSysten.exe
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\bin\Debug\net6.0\MatchManagementSysten.deps.json
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\bin\Debug\net6.0\MatchManagementSysten.runtimeconfig.json
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\bin\Debug\net6.0\MatchManagementSysten.dll
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\bin\Debug\net6.0\MatchManagementSysten.pdb
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.csproj.AssemblyReference.cache
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.AssemblyInfoInputs.cache
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.AssemblyInfo.cs
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.csproj.CoreCompileInputs.cache
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.dll
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\refint\MatchManagementSysten.dll
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.pdb
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\MatchManagementSysten.genruntimeconfig.cache
+C:\Users\shruti.chaube\Desktop\Assignments SI\Dotnet\MatchManagementSysten\obj\Debug\net6.0\ref\MatchManagementSysten.dll
