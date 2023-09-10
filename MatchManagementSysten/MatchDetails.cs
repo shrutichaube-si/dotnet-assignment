@@ -18,9 +18,9 @@ namespace MatchManagementSysten
         public int AwayTeamScore;
 
         public MatchDetails(int id,string sport,DateTime datetime,string location, string hometeam,string awayteam, int hometesmscore,int awayteamscore) { 
-        MatchId = id;
+            MatchId = id;
             Sport = sport;
-            DateTime MatchDateTime = datetime;
+            MatchDateTime = datetime;
             Location = location;
             HomeTeam = hometeam;
             AwayTeam = awayteam;
