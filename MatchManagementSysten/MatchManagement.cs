@@ -117,7 +117,7 @@ namespace MatchManagementSysten
             {
 
                 Console.WriteLine(details.MatchId + " " + details.Sport + " " + details.MatchDateTime + " " + details.Location + " " + details.HomeTeam + " " + details.AwayTeam + " " + details.HomeTeamScore + " " + details.AwayTeamScore);
-                Console.Write(details.AwayTeamScore);
+               
                 Console.WriteLine("==============================");
             }
            
@@ -238,37 +238,41 @@ namespace MatchManagementSysten
 
         }
 
-        //Search by keyword
-        
-        //public void SearchbyKeyword()
-        //{
+        //  Search by keyword
 
-        //    List<MatchDetails> ms;
-        //    string c;
+        public void SearchbyKeyword()
+        {
 
-
-        //    Console.WriteLine("Enter keyword :");
-        //    c = Console.ReadLine();
-        //    c = c.ToLower();
-
-        //    ms = (from match in Matches
-        //          where ((match.AwayTeam).ToLower().Contains(c)) || ((match.HomeTeam).ToLower().Contains(c)) || ((match.Sport).ToLower().Contains(c)) || ((match.Location).ToLower().Contains(c))
-        //          select match).ToList();
-        //    if (ms.Count > 0)
-        //    {
-        //        Display(ms);
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("No matches found");
-        //    }
+            List<MatchDetails> ms;
+            string c;
 
 
+            Console.WriteLine("Enter keyword :");
+            c = Console.ReadLine();
+            c = c.ToLower();
+
+            ms = (from match in Matches
+                  where ((match.AwayTeam).ToLower().Contains(c)) || ((match.HomeTeam).ToLower().Contains(c)) || ((match.Sport).ToLower().Contains(c)) || ((match.Location).ToLower().Contains(c))
+                  select match).ToList();
+            if (ms.Count > 0)
+            {
+                foreach (var details in ms)
+                {
+                    Console.WriteLine(details.MatchId + " " + details.Sport + " " + details.MatchDateTime + " " + details.Location + " " + details.HomeTeam + " " + details.AwayTeam + " " + details.HomeTeamScore + " " + details.AwayTeamScore);
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("No matches found");
+            }
+
+        }
 
 
-        //}
-        // Validation
-        public void AddMatch(MatchDetails match)
+            //}
+            // Validation
+            public void AddMatch(MatchDetails match)
         {
             if (validation(match))
             {

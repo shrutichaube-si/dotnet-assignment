@@ -60,9 +60,9 @@
 
                         management.StatsbySport();
                         break;
-                    //case 12:
-                    //    management.SearchbyKeyword();
-                    //    break;
+                    case 12:
+                        management.SearchbyKeyword();
+                        break;
                     case 13:
                         management.AddMatch();
                         break;
