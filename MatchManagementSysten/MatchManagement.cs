@@ -93,8 +93,7 @@ namespace MatchManagementSysten
             catch (Exception ex) { Console.WriteLine("Invalid input"); }
         }
 
-        //SEARCH
-
+        //SEARCH WITH MATCH ID
         public void Search()
         {
             Console.WriteLine("Enter the match id");

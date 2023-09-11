@@ -6,11 +6,11 @@
         {
            
             MatchManagement management = new MatchManagement();
-            Console.WriteLine("hello world");
+         
             int choice = 1;
             
             while (choice != 0) {
-                Console.WriteLine("1 to Display, 2 to Search, 3 to update, 4 to remove, 5 to sort by sports, 6 to sort by Location, 7 to sort by date, 8 to filter by sports, 9 to filter by date, 10 to filter by location,11 to statsbysports,12 to searchby Keyword, 13 to addamatch and validation");
+                Console.WriteLine("1 to Display, 2 to Search With Match ID, 3 to update, 4 to remove, 5 to sort by sports, 6 to sort by Location, 7 to sort by date, 8 to filter by sports, 9 to filter by date, 10 to filter by location,11 to statsbysports,12 to searchby Keyword, 13 to addamatch and validation");
                 Console.WriteLine("Enter your choice");
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
